@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit','Segoe UI',  sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/*center the card class*/
+.card {
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.qr-code{
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.qr-code img {
+    position: relative;
+    width: 95%;
+    border-radius:10px ;
+}
+
+.content {
+    margin: 1rem 1rem 0rem 1rem;
+    position: relative;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #7b879d;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+/*style the attribution*/
+.attribution {
+    margin-top: 2rem;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+
+.attribution a {
+    color: hsl(220, 45%, 44%);
+}
+
+@media screen and (max-width: 1440px) {
+    div.main {
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    div.main {
+        width: 90%;
+    }
+    
+}
